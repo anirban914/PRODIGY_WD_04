@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+}
+
+#home h1, #home h2 {
+    margin: 20px 0;
+}
+
+#home p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* About Me Section */
+#about {
+    background-color: #f0f0f0;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
